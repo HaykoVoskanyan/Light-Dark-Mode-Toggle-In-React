@@ -1,0 +1,74 @@
+.App{
+    height: 500px;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 250px;
+    border: 2px solid rgb(126, 123, 123);
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.main{
+    background-color: rgb(233, 240, 240);
+    border: 2px solid rgba(77, 76, 76, 0.527);
+}
+
+.form1{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+input{
+    padding: 7px 5px;
+    border-color:rgb(255, 255, 255);
+}
+p{
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.submit{
+    padding: 5px 10px;
+}
+label{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.submit {
+    background-color: rgb(141, 147, 237);
+    color: rgb(52, 50, 50);
+    border-radius: 9px;
+}
+#light{
+    background-color: rgb(249, 212, 246);
+};
+.switch{
+    display: flex;
+    height: 100px;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+}
+.switch label{
+   margin: 10px;
+}
+.switch label{
+    color: rgb(82, 170, 241);;
+}
